@@ -1,0 +1,131 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+/* ---------------------------------------------------
+        Common classes
+----------------------------------------------------- */
+
+.flex_wrapped_column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis:auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis:auto;
+    font-size: xx-large;
+    margin: 20px;
+    color: teal;
+}
+
+.myForm{
+    /*width: 1200px;*/
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.myForm form{
+    width: 350px;
+    min-height: 300px;
+    font-family: Calibri, sans-serif;
+    padding: 20px;
+    border: #2f2f2f solid 2px;
+    background-color: rgba(225, 252, 252, 0.16);
+    margin: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.input-container input{
+    border: gray solid 1px;
+    padding: 5px;
+    margin: 2px;
+    color: black;
+    width: 80%;
+}
+
+.input-container input:disabled{
+    background-color: #d3d3d3;
+}
+.input-container label{
+    font-weight: bold;
+    color: #003b3b;
+}
+
+.myBtn button{
+    border: #00524b solid 2px;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin: 10px;
+    color: White;
+    font-size: 16px;
+    background-color: #00524b;
+    border-radius: 10px;
+}
+.myBtn button:hover{
+
+    background-color: white;
+    font-size: 16px;
+    color: #2c2c2c;
+    cursor: pointer;
+}
+
+.searchResult{
+    width: 350px;
+    min-height: 300px;
+    font-family: Calibri, sans-serif;
+    padding: 20px;
+    border: #2f2f2f solid 2px;
+    background-color: rgba(225, 252, 252, 0.16);
+    margin: 20px;
+}
+.closestStation{
+    height: 30px;
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    border-bottom: #2f2f2f 2px solid;
+}
+.map{
+    height: 400px;
+    margin-top: 10px;
+}
