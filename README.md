@@ -1,10 +1,10 @@
 # NDSU Bike Station Finder
-This applications helps user find the closest NDSU bike station from their location.
+This applications helps user find the closest NDSU bike station from their location in Fargo,ND.
 
 ## API:
 - Bike stations are stored in sqlight database "bike_locations" with following columns : Id, latitude, longitude, and name
 - Restful API is created with Python Flask which runs on "http://127.0.0.1:5000/"
-- "http://127.0.0.1:5000/" URL takes user to the only home page
+- "http://127.0.0.1:5000/" URL redirects user to the home page
 - "http://127.0.0.1:5000/search?address=#&city=#&state=#&zipcode=#" URL is the GET API call to fetch the closest bike location
 - Following libraries are installed Flask, flask_restful, flask_sqlalchemy, and geopy
 
@@ -14,7 +14,7 @@ GET Request handler :
 - Program iterates through all the locations from database and returns the location closest to the submitted address. 
 - Distance is calculated using the following method: geodesic().miles
 
-## Frontend:
+## User Interface:
 - CSS flexbox layout is used to keep the UI responsive.
 - HTML Field level validation is added for required fields. City and State are prepopulated and disabled.
 - Jquery AJAX is used to perform API call.

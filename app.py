@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 from flask_restful import Api, reqparse
 from flask_sqlalchemy import SQLAlchemy
 from geopy import Nominatim
