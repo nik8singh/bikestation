@@ -21,4 +21,3 @@ GET Request handler :
 - Appropriate progress message is displayed : Error or found location name
 - https://leafletjs.com/ is used for the map. All the leaflet coded was taken from official documentation.
 - leaflet routing machine is used to display routing between two waypoints.
-- 
