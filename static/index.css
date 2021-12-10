@@ -111,7 +111,7 @@ a {
 }
 
 .searchResult{
-    width: 350px;
+    width: 600px;
     min-height: 300px;
     font-family: Calibri, sans-serif;
     padding: 20px;
@@ -128,4 +128,20 @@ a {
 .map{
     height: 400px;
     margin-top: 10px;
+}
+
+.inProgress{
+    color: darkblue;
+    font-size: 20px;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+}
+
+.foundit{
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
 }

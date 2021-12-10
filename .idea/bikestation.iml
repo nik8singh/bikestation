@@ -12,6 +12,7 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="3dfa83d19f" level="application" />
     <orderEntry type="library" name="leaflet" level="application" />
+    <orderEntry type="library" name="leaflet-routing-machine" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
